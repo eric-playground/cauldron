@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "2026-06-30",
+  "lastUpdated": "2026-07-08",
   "heatScore": 93,
   "heatLabel": "Boiling",
-  "summary": "As of 30 June 2026, the AI bubble cauldron holds at 'Boiling' 93/100. The defining story of the week is GPT-5.6's restricted launch: OpenAI unveiled a three-tier family (Sol / Terra / Luna) on June 26, but the Trump administration's first-ever executive order requiring 30-day government review of frontier AI models limited rollout to ~20 approved partners, setting a de facto involuntary licensing regime for advanced AI. The Shiller CAPE eases further to ~41.02\u00d7 (94.3% of the dot-com peak of 43.5\u00d7); S&P 500 forward P/E edges up to ~21.1\u00d7 per MacroMicro (June 30); Magnificent-7 full average P/E compresses slightly to ~77.4\u00d7 as Tesla retreats from its extreme ~385\u00d7 high; hyperscaler 2026 capex consensus holds at ~$715B with Amazon, Google, Meta and Microsoft on track; VC\u2192AI concentration steady at ~80% for Q1 2026; EU AI Act August 2, 2026 GPAI enforcement deadline is only 33 days away with ~78% of organisations not yet compliant; OpenAI also began deploying Cerebras wafer-scale chips and unveiled its own 'Jalape\u00f1o' inference chip, signalling a deliberate shift away from Nvidia GPU dependence.",
+  "summary": "As of 8 July 2026, the AI bubble cauldron holds at 'Boiling' 93/100. The defining story of the week is OpenAI's unprecedented proposal to give the U.S. government a 5% equity stake (~$42.6B) to ease regulatory pressure \u2014 while simultaneously Anthropic locked in a 20-year, $19B infrastructure lease with TeraWulf for a Kentucky AI campus, signalling irreversible long-term capital commitment to AI infrastructure. The Shiller CAPE ticks up to ~41.66\u00d7 (95.8% of the dot-com peak of 43.5\u00d7); S&P 500 forward P/E eases to ~20.1\u00d7 (StreetStats, July 7); Q2 2026 VC data confirms AI captured 81% of global venture funding ($194B of $240B for the quarter) \u2014 and just OpenAI + Anthropic absorbed 43% of all H1 2026 global startup funding ($217B of a record $510B); AI unicorn count since 2024 climbs to ~246; hyperscaler 2026 capex consensus holds at ~$715B.",
   "kpis": {
     "capeRatio": {
-      "value": 41.02,
+      "value": 41.66,
       "historicalAvg": 17.6,
       "dotComPeak": 43.5,
       "unit": "x",
       "label": "CAPE Ratio",
-      "description": "Cyclically adjusted P/E for the U.S. market \u2014 LongTermTrends / ycharts reading for end-June 2026 eases to ~41.02\u00d7, down from the mid-June peak of ~43\u00d7, but still 94.3% of the all-time dot-com peak of 43.5\u00d7; U.S. equity valuations remain at near-record historical extremes driven by AI-led equity rally and continued mega-round infrastructure financing commitments (LongTermTrends / ycharts, June 30, 2026).",
+      "description": "Cyclically adjusted P/E for the U.S. market \u2014 Finanzapedia reading for early July 2026 ticks up to ~41.66\u00d7, reaching 95.8% of the all-time dot-com peak of 43.5\u00d7; U.S. equity valuations remain at near-record historical extremes driven by AI-led equity rally and continued mega-round infrastructure financing commitments (Finanzapedia / ycharts, July 2026).",
       "weight": 20,
       "score": 20
     },
     "sp500ForwardPE": {
-      "value": 21.1,
+      "value": 20.1,
       "historicalAvg": 16,
       "unit": "x",
       "label": "S&P 500 Forward P/E",
-      "description": "Forward price-to-earnings ratio for the S&P 500 \u2014 MacroMicro reading as of June 30, 2026 shows ~21.1\u00d7, recovering from the mid-June FactSet reading of ~20.1\u00d7; still materially above the 16\u00d7 long-run average (5-year avg: 19.9\u00d7; 10-year avg: 19.0\u00d7) and consistent with late-cycle AI-led valuation expansion (MacroMicro / FactSet, June 2026).",
+      "description": "Forward price-to-earnings ratio for the S&P 500 \u2014 StreetStats reading as of July 7, 2026 shows ~20.1\u00d7, based on estimated forward 12-month earnings; still materially above the 16\u00d7 long-run average (5-year avg: 19.9\u00d7; 10-year avg: 19.0\u00d7) and consistent with late-cycle AI-led valuation expansion (StreetStats, July 7, 2026).",
       "weight": 10,
       "score": 10
     },
@@ -33,12 +33,12 @@
       "score": 10
     },
     "vcAiConcentration": {
-      "value": 80,
+      "value": 81,
       "unit": "%",
       "label": "VC \u2192 AI Share",
-      "description": "Share of global Q1 2026 VC investment flowing into AI is still around ~80% (roughly $242B of ~$300B, depending on tracker), indicating continued extreme capital concentration in AI.",
-      "totalVcBn": 300,
-      "aiVcBn": 242,
+      "description": "Share of global Q2 2026 VC investment flowing into AI reaches 81% (roughly $194B of ~$240B in Q2 2026), with OpenAI and Anthropic alone absorbing 43% of all H1 2026 global startup funding ($217B of a record $510B); indicates historic hyper-concentration of capital into AI (Crunchbase / Angel Investors Network, July 2026).",
+      "totalVcBn": 240,
+      "aiVcBn": 194,
       "weight": 20,
       "score": 16
     },
@@ -81,10 +81,10 @@
       "score": 5
     },
     "aiUnicornsSince2024": {
-      "value": 232,
+      "value": 246,
       "unit": "companies",
       "label": "AI Unicorns (Global)",
-      "description": "AI-focused companies reaching $1B+ valuation since 2024 climbs to ~232 after a June 2026 surge of new entrants including Thinking Machines Lab ($12B), Decagon ($1.5B), Seekr ($1.2B), and Fireflies.ai ($1B); total active AI unicorn count globally now stands at ~308 according to Failory 2026 tracker, with AI representing >25% of all newly minted unicorns in 2026 (Crunchbase / Worldef / Failory, June 2026).",
+      "description": "AI-focused companies reaching $1B+ valuation since 2024 climbs to ~246 as the AI boom fuels ~90 new unicorns globally in H1 2026 alone (more than half AI-focused), with standout entrants including Prometheus ($41B, co-founded by Jeff Bezos) and Apptronik ($5.3B); pace is ~10 new unicorns per month globally in 2026 with AI representing the dominant sector (Crunchbase / Chosun Ilbo, July 2026).",
       "weight": 5,
       "score": 5
     },
@@ -229,9 +229,44 @@
       "hyperscalerCapexBn": 715,
       "gridDelayYears": 5,
       "aiUnicorns": 232
+    },
+    {
+      "date": "2026-07-08",
+      "heatScore": 93,
+      "heatLabel": "Boiling",
+      "capeRatio": 41.66,
+      "sp500ForwardPE": 20.1,
+      "vcAiSharePct": 81,
+      "hyperscalerCapexBn": 715,
+      "gridDelayYears": 5,
+      "aiUnicorns": 246
     }
   ],
   "topStories": [
+    {
+      "date": "2026-07-07",
+      "headline": "Anthropic signs a 20-year, $19 billion lease with TeraWulf for a dedicated AI infrastructure campus (401 MW critical IT load) at the Justified Data site in Hawesville, Kentucky \u2014 Anthropic's largest-ever dedicated compute commitment, built on a former aluminium smelter with zero chemical discharge; initial capacity expected H2 2027, full capacity by early 2028; the deal cements Anthropic's long-term independence from hyperscaler supply chains and is part of an unprecedented wave of AI labs directly locking in physical infrastructure at 20-year timescales.",
+      "source": "DataCenter Dynamics / TeraWulf",
+      "sourceUrl": "https://www.datacenterdynamics.com/en/news/anthropic-signs-19bn-20-year-lease-for-kentucky-data-center-with-terawulf/",
+      "type": "Circular Financing",
+      "sentiment": "extreme_bullish"
+    },
+    {
+      "date": "2026-07-02",
+      "headline": "OpenAI proposes donating a 5% equity stake (~$42.6B at its $852B valuation) to the U.S. government via a sovereign-wealth-style 'Public Wealth Fund' \u2014 an unprecedented move to share AI upside with citizens and defuse mounting regulatory pressure from Washington; Sam Altman envisions other frontier labs (Anthropic, Google, Meta, xAI) making similar donations; critics warn the arrangement creates a structural conflict of interest between the government as regulator and as shareholder, while the proposal still requires Congressional approval.",
+      "source": "CNBC / TechCrunch",
+      "sourceUrl": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html",
+      "type": "Regulatory",
+      "sentiment": "bearish_signal"
+    },
+    {
+      "date": "2026-07-02",
+      "headline": "Global venture funding hits a record $510 billion in H1 2026 \u2014 eclipsing all of 2025 ($440B) in just six months \u2014 with OpenAI and Anthropic alone capturing 43% ($217B); AI startups claimed 81% of Q2 VC ($194B of $240B); just 16 companies absorbed 53% of Q2 capital, an extreme hyper-concentration pattern unprecedented in modern venture history that directly mirrors circular-financing dynamics (Crunchbase / SiliconAngle, July 2026).",
+      "source": "Crunchbase / SiliconAngle",
+      "sourceUrl": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
+      "type": "Circular Financing",
+      "sentiment": "extreme_bullish"
+    },
     {
       "date": "2026-06-26",
       "headline": "OpenAI launches GPT-5.6 as a three-tier family (Sol / Terra / Luna) on June 26, 2026, but access is restricted to ~20 government-approved partner organisations after the Trump administration requested a 30-day pre-release review \u2014 the first time the U.S. government has directly gated a commercial AI model rollout; Sol Ultra scores 91.9% on Terminal-Bench 2.1 and introduces parallel-subagent 'ultra' reasoning mode for agentic workflows, setting a new frontier capability benchmark even as its public availability remains delayed.",
@@ -381,13 +416,13 @@
     {
       "metric": "CAPE Ratio",
       "value1999Peak": 43.5,
-      "value2026": 41.02,
+      "value2026": 41.66,
       "historicalAvg": 17.6
     },
     {
       "metric": "S&P 500 Forward P/E",
       "value1999Peak": 25,
-      "value2026": 21.1,
+      "value2026": 20.1,
       "historicalAvg": 16
     },
     {
