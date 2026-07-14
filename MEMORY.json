@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "2026-07-08",
+  "lastUpdated": "2026-07-14",
   "heatScore": 93,
   "heatLabel": "Boiling",
-  "summary": "As of 8 July 2026, the AI bubble cauldron holds at 'Boiling' 93/100. The defining story of the week is OpenAI's unprecedented proposal to give the U.S. government a 5% equity stake (~$42.6B) to ease regulatory pressure \u2014 while simultaneously Anthropic locked in a 20-year, $19B infrastructure lease with TeraWulf for a Kentucky AI campus, signalling irreversible long-term capital commitment to AI infrastructure. The Shiller CAPE ticks up to ~41.66\u00d7 (95.8% of the dot-com peak of 43.5\u00d7); S&P 500 forward P/E eases to ~20.1\u00d7 (StreetStats, July 7); Q2 2026 VC data confirms AI captured 81% of global venture funding ($194B of $240B for the quarter) \u2014 and just OpenAI + Anthropic absorbed 43% of all H1 2026 global startup funding ($217B of a record $510B); AI unicorn count since 2024 climbs to ~246; hyperscaler 2026 capex consensus holds at ~$715B.",
+  "summary": "As of 14 July 2026, the AI bubble cauldron holds steady at 'Boiling' 93/100. The week's defining themes are the unprecedented concentration of sovereign-wealth capital into AI \u2014 Abu Dhabi's MGX closes Fund I at a record $49B (surpassing its $45B target), backed by OpenAI, Anthropic, SpaceX and 14 AI-stack companies \u2014 and the deepening compute-infrastructure arms race, epitomised by Reflection AI's $6.3B SpaceX Colossus 2 contract ($150M/month through 2029). Anthropic releases Claude Sonnet 5 (June 30), its most capable agentic model yet at near-Opus performance and half the cost. The Shiller CAPE edges down slightly to ~41.4\u00d7 (95.2% of the 43.5\u00d7 dot-com peak); S&P 500 forward P/E holds at ~20.2\u00d7; AI unicorn count since 2024 reaches ~248; hyperscaler 2026 capex consensus unchanged at ~$715B; VC AI share steady at 81% of Q2 2026 global funding.",
   "kpis": {
     "capeRatio": {
-      "value": 41.66,
+      "value": 41.4,
       "historicalAvg": 17.6,
       "dotComPeak": 43.5,
       "unit": "x",
       "label": "CAPE Ratio",
-      "description": "Cyclically adjusted P/E for the U.S. market \u2014 Finanzapedia reading for early July 2026 ticks up to ~41.66\u00d7, reaching 95.8% of the all-time dot-com peak of 43.5\u00d7; U.S. equity valuations remain at near-record historical extremes driven by AI-led equity rally and continued mega-round infrastructure financing commitments (Finanzapedia / ycharts, July 2026).",
+      "description": "Cyclically adjusted P/E for the U.S. market \u2014 YCharts / Finanzapedia reading for mid-July 2026 edges down slightly to ~41.4\u00d7, reaching 95.2% of the all-time dot-com peak of 43.5\u00d7; U.S. equity valuations remain at near-record historical extremes driven by AI-led equity rally and continued mega-round infrastructure financing commitments (YCharts / Finanzapedia, July 2026).",
       "weight": 20,
       "score": 20
     },
     "sp500ForwardPE": {
-      "value": 20.1,
+      "value": 20.2,
       "historicalAvg": 16,
       "unit": "x",
       "label": "S&P 500 Forward P/E",
-      "description": "Forward price-to-earnings ratio for the S&P 500 \u2014 StreetStats reading as of July 7, 2026 shows ~20.1\u00d7, based on estimated forward 12-month earnings; still materially above the 16\u00d7 long-run average (5-year avg: 19.9\u00d7; 10-year avg: 19.0\u00d7) and consistent with late-cycle AI-led valuation expansion (StreetStats, July 7, 2026).",
+      "description": "Forward price-to-earnings ratio for the S&P 500 \u2014 MacroMicro reading as of July 14, 2026 shows ~20.2\u00d7, based on estimated forward 12-month earnings; still materially above the 16\u00d7 long-run average (5-year avg: 19.9\u00d7; 10-year avg: 19.0\u00d7) and consistent with late-cycle AI-led valuation expansion (MacroMicro, July 14, 2026).",
       "weight": 10,
       "score": 10
     },
@@ -81,10 +81,10 @@
       "score": 5
     },
     "aiUnicornsSince2024": {
-      "value": 246,
+      "value": 248,
       "unit": "companies",
       "label": "AI Unicorns (Global)",
-      "description": "AI-focused companies reaching $1B+ valuation since 2024 climbs to ~246 as the AI boom fuels ~90 new unicorns globally in H1 2026 alone (more than half AI-focused), with standout entrants including Prometheus ($41B, co-founded by Jeff Bezos) and Apptronik ($5.3B); pace is ~10 new unicorns per month globally in 2026 with AI representing the dominant sector (Crunchbase / Chosun Ilbo, July 2026).",
+      "description": "AI-focused companies reaching $1B+ valuation since 2024 reaches ~248 as the AI boom continues to fuel ~10 new unicorns globally per month; H1 2026 alone produced ~90 new unicorns globally with AI as the dominant sector; standout entrants include Prometheus ($41B, co-founded by Jeff Bezos) and Apptronik ($5.3B); Abu Dhabi's MGX Fund I ($49B close, July 2026) and Reflection AI ($25B valuation, NVIDIA-backed) exemplify the latest entrants into the AI capital class (Crunchbase / TechCrunch, July 2026).",
       "weight": 5,
       "score": 5
     },
@@ -240,9 +240,44 @@
       "hyperscalerCapexBn": 715,
       "gridDelayYears": 5,
       "aiUnicorns": 246
+    },
+    {
+      "date": "2026-07-14",
+      "heatScore": 93,
+      "heatLabel": "Boiling",
+      "capeRatio": 41.4,
+      "sp500ForwardPE": 20.2,
+      "vcAiSharePct": 81,
+      "hyperscalerCapexBn": 715,
+      "gridDelayYears": 5,
+      "aiUnicorns": 248
     }
   ],
   "topStories": [
+    {
+      "date": "2026-07-03",
+      "headline": "Abu Dhabi's MGX closes Fund I at a record $49 billion \u2014 surpassing its $45B target and becoming the world's largest dedicated AI investment vehicle \u2014 backed by institutional investors from the Gulf, North America, Asia, and Europe; the fund invested in 14 companies across the AI stack including OpenAI, Anthropic, SpaceX, and Vantage Data Centers, and co-led landmark raises like Anthropic's $65B Series H; chaired by Sheikh Tahnoon bin Zayed Al Nahyan, MGX cements Abu Dhabi's role as the world's premier sovereign-wealth AI capital allocator, with a parallel 1.4 GW AI campus being built near Paris.",
+      "source": "MGX / Quartz / MIT Sloan ME",
+      "sourceUrl": "https://www.mgx.ae/news-insights/mgx-pleased-confirm-final-close-mgx-fund-i-49-billion-total-commitments-significantly",
+      "type": "Circular Financing",
+      "sentiment": "extreme_bullish"
+    },
+    {
+      "date": "2026-06-30",
+      "headline": "Anthropic releases Claude Sonnet 5 (June 30, 2026) as its most capable agentic Sonnet model yet \u2014 delivering near-Opus 4.8 performance at introductory API pricing of $2/$10 per million input/output tokens (rising to $3/$15 after Aug 31); supports a 1M-token context window with adaptive internal reasoning by default; immediately becomes the default for all Free and Pro users on claude.ai; the model is optimised for autonomous coding, multi-step agentic workflows, and tool use, cementing Anthropic's push to monetise agentic AI at scale while its annualised revenue run-rate has hit ~$47B.",
+      "source": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-5",
+      "type": "Hype Cycle",
+      "sentiment": "extreme_bullish"
+    },
+    {
+      "date": "2026-06-22",
+      "headline": "Reflection AI \u2014 open-source AI startup founded by ex-Google DeepMind researchers, valued at $25B with an $800M Nvidia strategic investment \u2014 signs a $6.3B compute contract with SpaceX Colossus 2 in Memphis ($150M/month starting July 1, 2026, through 2029) for priority access to Nvidia GB300 Blackwell Ultra chips; the deal is the largest compute agreement ever struck by an independent AI startup, amplifying SpaceX's emergence as a dominant AI infrastructure landlord alongside Google ($30B) and Anthropic ($19B) contracts, and deepening the circular-financing loop as sovereign AI challengers bypass hyperscalers entirely.",
+      "source": "CNBC / TechCrunch",
+      "sourceUrl": "https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html",
+      "type": "Circular Financing",
+      "sentiment": "extreme_bullish"
+    },
     {
       "date": "2026-07-07",
       "headline": "Anthropic signs a 20-year, $19 billion lease with TeraWulf for a dedicated AI infrastructure campus (401 MW critical IT load) at the Justified Data site in Hawesville, Kentucky \u2014 Anthropic's largest-ever dedicated compute commitment, built on a former aluminium smelter with zero chemical discharge; initial capacity expected H2 2027, full capacity by early 2028; the deal cements Anthropic's long-term independence from hyperscaler supply chains and is part of an unprecedented wave of AI labs directly locking in physical infrastructure at 20-year timescales.",
@@ -416,13 +451,13 @@
     {
       "metric": "CAPE Ratio",
       "value1999Peak": 43.5,
-      "value2026": 41.66,
+      "value2026": 41.4,
       "historicalAvg": 17.6
     },
     {
       "metric": "S&P 500 Forward P/E",
       "value1999Peak": 25,
-      "value2026": 20.1,
+      "value2026": 20.2,
       "historicalAvg": 16
     },
     {
