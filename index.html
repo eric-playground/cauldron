@@ -419,7 +419,7 @@
 <div class="ticker-wrap" aria-label="Market ticker">
   <div class="ticker" id="marketTicker"></div>
   <noscript>
-        <div class="ticker"><span>🌡 HEAT: 93/100</span> · CAPE Ratio <span>41.4×</span> · VC→AI <span>81%</span> · Hyperscaler Capex <span>$715B</span> · OpenAI Revenue <span>$25B</span> ·</div>
+        <div class="ticker"><span>🌡 HEAT: 93/100</span> · CAPE Ratio <span>41.0×</span> · VC→AI <span>81%</span> · Hyperscaler Capex <span>$725B</span> · OpenAI Revenue <span>$25B</span> ·</div>
   </noscript>
 </div>
 
@@ -612,63 +612,63 @@ async function loadData() {
 }
 
 const FALLBACK_DATA = {
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-07-30",
   "heatScore": 93,
   "heatLabel": "Boiling",
-  "summary": "As of 22 July 2026, the AI bubble cauldron holds steady at 'Boiling' 93/100. The day's defining story is AMD's landmark strategic partnership with Anthropic — up to 2GW of Instinct MI450 GPUs backed by a $5B AMD equity investment — intensifying the chip-supplier arms race alongside NVIDIA. OpenAI launches \"Presence,\" a governed enterprise voice/chat-agent platform already resolving 75% of its own support calls autonomously, while the White House publicly accuses China's Moonshot AI of covertly distilling Anthropic's Claude Fable 5 to build its Kimi K3 model, escalating U.S.-China AI tensions. The Shiller CAPE eases to ~41.4× (95.1% of the 43.5× dot-com peak); S&P 500 forward P/E softens to ~19.9×; Magnificent-7 trailing P/E compresses further to ~72.7× as Tesla's multiple keeps sliding; AI unicorn count since 2024 climbs to ~251; hyperscaler 2026 capex consensus holds at ~$715B; VC AI share steady at 81% of global funding.",
+  "summary": "As of 30 July 2026, the AI bubble cauldron holds steady at 'Boiling' 93/100. Meta and BlackRock unveil a $14B, 1-gigawatt AI data-centre venture in El Paso, Texas — with BlackRock-managed funds owning 80% — pushing more hyperscaler capex off-balance-sheet, while OpenAI opens its flagship GPT-5.6 \"Sol/Terra/Luna\" model family to 100,000 academic researchers for free as part of a $250M science push. A widely-cited Seoul Economic Daily analysis finds more than half the gains from 27 U.S. \"AI-rebrand\" stocks (echoing the dot-com \".com\" era) have already vanished, with seven now trading below their pre-pivot levels — reinforcing AI-washing concerns even as NewBird AI's 876% spike remains the record. The Shiller CAPE eases to ~41.0× (94.3% of the 43.5× dot-com peak); S&P 500 forward P/E softens to ~19.6×; Magnificent-7 trailing P/E compresses further to ~63.3× as Tesla's multiple keeps sliding; AI unicorn count since 2024 climbs to ~254; hyperscaler 2026 capex consensus rises to ~$725B (+77% YoY); VC AI share holds at 81% of global funding.",
   "kpis": {
     "capeRatio": {
-      "value": 41.37,
+      "value": 41.0,
       "historicalAvg": 17.6,
       "dotComPeak": 43.5,
       "unit": "x",
       "label": "CAPE Ratio",
-      "description": "Cyclically adjusted P/E for the U.S. market — YCharts / Finanzapedia reading for late-July 2026 eases slightly to ~41.37×, reaching 95.1% of the all-time dot-com peak of 43.5×; U.S. equity valuations remain at near-record historical extremes driven by AI-led equity rally and continued mega-round infrastructure financing commitments (YCharts / Finanzapedia, July 2026).",
+      "description": "Cyclically adjusted P/E for the U.S. market — YCharts / GuruFocus / Finanzapedia readings for late-July 2026 cluster around ~41.0×, reaching 94.3% of the all-time dot-com peak of 43.5×; U.S. equity valuations remain at near-record historical extremes driven by AI-led equity rally and continued mega-round infrastructure financing commitments (YCharts / GuruFocus, July 2026).",
       "weight": 20,
       "score": 20
     },
     "sp500ForwardPE": {
-      "value": 19.9,
+      "value": 19.6,
       "historicalAvg": 16,
       "unit": "x",
       "label": "S&P 500 Forward P/E",
-      "description": "Forward price-to-earnings ratio for the S&P 500 — MacroMicro reading as of July 21, 2026 shows ~19.9×, based on estimated forward 12-month earnings; now roughly in line with the 5-year average (19.9×) but still above the 16× long-run average and 10-year average (19.0×), consistent with late-cycle AI-led valuation expansion (MacroMicro, July 21, 2026).",
+      "description": "Forward price-to-earnings ratio for the S&P 500 — StreetStats / Stock Alarm Pro reading as of market close July 28, 2026 shows ~19.6×, based on estimated forward 12-month earnings; roughly in line with the 5-year average but still above the 16× long-run average, consistent with late-cycle AI-led valuation expansion (StreetStats, July 28, 2026).",
       "weight": 10,
       "score": 10
     },
     "top7StocksPE": {
-      "value": 72.7,
+      "value": 63.3,
       "historicalAvg": 20,
       "unit": "x",
       "label": "Top 7 Stocks P/E",
-      "description": "Magnificent-7 trailing P/E full average compresses further to ~72.7× as of late July 2026, as TSLA continues sliding to ~337.7× following AI-semiconductor profit-taking; ex-TSLA average edges down to ~28.5× as MSFT (~24.0×), META (~19.6×), GOOGL (~26.9×), NVDA (~31.1×), AAPL (~39.7×) and AMZN (~29.9×) remain broadly stable (Validea / BearSavings.com Mag-7 Valuation Dashboard, July 2026).",
+      "description": "Magnificent-7 trailing P/E full average compresses further to ~63.3× as of late July 2026, as TSLA continues sliding to ~285.6× following AI-semiconductor profit-taking; ex-TSLA average edges to ~26.2× as AAPL (~41.3×), MSFT (~23.4×), NVDA (~30.2×), AMZN (~27.6×), GOOGL (~16.8×) and META (~18.0×) remain broadly stable (Validea Mag-7 Valuation Dashboard, July 2026).",
       "weight": 10,
-      "score": 10
+      "score": 9
     },
     "vcAiConcentration": {
       "value": 81,
       "unit": "%",
       "label": "VC → AI Share",
-      "description": "Share of global VC investment flowing into AI holds at 81% (roughly $194B of ~$240B in Q2 2026), corroborated by Crunchbase's Q1 2026 report showing AI capturing 81% of a record $297B in global VC ($250B of it in the U.S.); OpenAI and Anthropic alone absorbed 43% of all H1 2026 global startup funding ($217B of a record $510B); indicates a historic, sustained hyper-concentration of capital into AI (Crunchbase / Angel Investors Network, July 2026).",
+      "description": "Share of global VC investment flowing into AI holds at 81% (~$194B of a record ~$240B in Q2 2026), up sharply from ~55% in Q2 2025; non-AI startups received just $46B, a 40% YoY drop, underscoring a historic, sustained hyper-concentration of capital into AI (Angel Investors Network / Crunchbase-sourced trackers, July 2026).",
       "totalVcBn": 240,
       "aiVcBn": 194,
       "weight": 20,
       "score": 16
     },
     "hyperscalerCapexBn": {
-      "value": 715,
-      "yoyGrowth": 62,
+      "value": 725,
+      "yoyGrowth": 77,
       "unit": "billion USD",
       "label": "Hyperscaler Capex 2026",
-      "description": "Big-4 hyperscaler (Microsoft, Google, Amazon, Meta) 2026 capex consensus holds at ~$715B as mid-year guidance is reaffirmed: Amazon (~$200B), Alphabet (~$175–190B), Microsoft (~$120–190B), and Meta (~$115–145B); 60–75% of this spend is AI-specific infrastructure; broader trackers including Oracle and ByteDance ($70B) push aggregate global AI capex toward ~$725–900B (OfficeChai / CreditSights / Futurum, July 2026).",
+      "description": "Top-5 hyperscaler (Microsoft, Google, Amazon, Meta, plus Oracle) 2026 capex consensus rises to ~$725B (+77% YoY) as Q2 earnings guidance is raised across the board: Alphabet (~$180–190B, after an $84.75B equity raise), Microsoft (Q1 capex already $34.9B and accelerating), Amazon (AWS build-out \"well above $100B\"), and Meta (raising its floor to $70B) — with roughly 75% (~$545B) of the total AI-specific; Meta also shifts $14B of new El Paso, TX capacity off-balance-sheet via an 80/20 BlackRock joint venture (CreditSights / ValueAdd VC / Forbes, July 2026).",
       "weight": 10,
-      "score": 9
+      "score": 10
     },
     "openAiRevenueBn": {
       "value": 25,
       "unit": "billion USD (annual)",
       "label": "OpenAI Annual Revenue",
-      "description": "OpenAI's annualised revenue run-rate holds at ~$24–25B (~$2B/month) as of July 2026, up ~90% year-over-year from $13B in 2025; projected 2026 operating loss narrows to ~$14B (from ~$21B in 2025) as ChatGPT (~1B monthly / 900M weekly active users) drives ~70% of revenue, with ~25% from API and ~5% from Sora/licensing. Latest valuation reaches ~$852B and OpenAI has confidentially filed for an IPO targeting up to $1T; committed infrastructure spend remains ~$600B through 2030 (Axis Intelligence / CB Insights, July 2026).",
+      "description": "OpenAI's annualised revenue run-rate holds at ~$24–25B as of July 2026, up ~90% year-over-year from $13B in 2025; CFO Sarah Friar told employees July's annualised recurring revenue alone surpassed all of Q2, underscoring rapid acceleration even as projected 2026 operating losses stay near ~$14B; committed infrastructure spend remains ~$600B through 2030 (Axis Intelligence / ValueAdd VC, July 2026).",
       "committedSpendBn": 600,
       "committedThrough": 2030,
       "weight": 5,
@@ -679,7 +679,7 @@ const FALLBACK_DATA = {
       "unit": "years",
       "baseline2023": 1.5,
       "label": "Grid Connection Delay",
-      "description": "National median wait for large U.S. data-centre grid connections remains ~5 years in 2026, with severely constrained markets stretching to 7–12 years — Google has publicly disclosed a utility quoting a 12-year interconnection study period; roughly half of the ~16GW of planned 2026 U.S. data-centre capacity is delayed or cancelled amid transformer shortages and interconnection-queue withdrawal rates nearing 80% (Network World / Tech Insider / ByteIota, 2026).",
+      "description": "National median wait for large U.S. data-centre grid connections remains ~5 years in 2026, with severely constrained markets stretching to 7–12 years — Google continues to disclose utilities quoting 12-year interconnection studies; only 5 of the ~16GW of planned 2026 U.S. data-centre capacity is under active construction, with 30–50% expected to slip to 2027+ amid transformer shortages and interconnection-queue withdrawal rates near 80% (Network World / Tech Insider, July 2026).",
       "weight": 10,
       "score": 8
     },
@@ -694,10 +694,10 @@ const FALLBACK_DATA = {
       "score": 5
     },
     "aiUnicornsSince2024": {
-      "value": 251,
+      "value": 254,
       "unit": "companies",
       "label": "AI Unicorns (Global)",
-      "description": "AI-focused companies reaching $1B+ valuation since 2024 climbs to ~251 as the AI boom continues to fuel ~10 new unicorns globally per month; total global AI unicorn count (including pre-2024 entrants) now stands at ~308 per Crunchbase-sourced trackers; standout entrants include Prometheus ($41B, co-founded by Jeff Bezos) and Apptronik ($5.3B); Abu Dhabi's MGX Fund I ($49B close, July 2026) and Reflection AI ($25B valuation, NVIDIA-backed) exemplify the latest entrants into the AI capital class (Crunchbase / TechCrunch, July 2026).",
+      "description": "AI-focused companies reaching $1B+ valuation since 2024 climbs to ~254 as the AI boom continues to mint new unicorns at a record pace (nearly 90 new unicorns of all kinds minted so far in 2026 per TechCrunch); total global AI unicorn count (including pre-2024 entrants) now stands at ~308 per Crunchbase-sourced trackers, with the US and Bay Area dominating new entrants (Crunchbase / TechCrunch / Thunderbit, July 2026).",
       "weight": 5,
       "score": 5
     },
@@ -705,23 +705,12 @@ const FALLBACK_DATA = {
       "value": 876,
       "unit": "%",
       "label": "NewBird AI 1-Day Surge",
-      "description": "Allbirds (footwear) rebranded as NewBird AI and reportedly hit an ~876% intraday spike (about +582% at close) on essentially zero AI revenue — still the most extreme AI-rebrand surge on record; this week's smaller echoes include AI Financial Corp (+10.91% intraday on its AIFC ticker debut) and Reliance Global/EZRA (+13.59% intraday on an AI-diagnostics pivot), underscoring the persistence of narrative-driven AI-washing (AInvest, July 2026).",
+      "description": "Allbirds' rebrand to NewBird AI still holds the record at ~876% intraday (about +581% at close) on essentially zero AI revenue. A widely-cited Seoul Economic Daily analysis of 27 U.S. companies that added \"AI\" to their name/focus since 2023 finds their combined market-cap gains (once as high as +106%) have more than halved by mid-2026, with 7 now trading below pre-rebrand levels — echoing the dot-com \".com\" naming bubble and reinforcing that narrative-driven AI-washing surges tend to fade without real AI revenue (Seoul Economic Daily, July 2026).",
       "weight": 5,
       "score": 5
     }
   },
   "historical": [
-    {
-      "date": "2026-06-01",
-      "heatScore": 94,
-      "heatLabel": "Boiling",
-      "capeRatio": 41.06,
-      "sp500ForwardPE": 22.8,
-      "vcAiSharePct": 80,
-      "hyperscalerCapexBn": 725,
-      "gridDelayYears": 5,
-      "aiUnicorns": 207
-    },
     {
       "date": "2026-06-05",
       "heatScore": 94,
@@ -820,9 +809,44 @@ const FALLBACK_DATA = {
       "hyperscalerCapexBn": 715,
       "gridDelayYears": 5,
       "aiUnicorns": 251
+    },
+    {
+      "date": "2026-07-30",
+      "heatScore": 93,
+      "heatLabel": "Boiling",
+      "capeRatio": 41.0,
+      "sp500ForwardPE": 19.6,
+      "vcAiSharePct": 81,
+      "hyperscalerCapexBn": 725,
+      "gridDelayYears": 5,
+      "aiUnicorns": 254
     }
   ],
   "topStories": [
+    {
+      "date": "2026-07-30",
+      "headline": "Meta and BlackRock unveil a $14 billion strategic venture to build a 1-gigawatt AI data-centre campus in El Paso, Texas, with BlackRock-managed funds owning 80% and Meta retaining 20% — shifting the bulk of the capex off Meta's balance sheet; the facility is slated to come online in 2028 and marks one of the largest off-balance-sheet AI infrastructure deals to date.",
+      "source": "Meta Investor Relations / Forbes / PRNewswire",
+      "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-New-Strategic-Venture-with-BlackRock-to-Develop-Data-Center-in-El-Paso/default.aspx",
+      "type": "Infrastructure Spend",
+      "sentiment": "extreme_bullish"
+    },
+    {
+      "date": "2026-07-30",
+      "headline": "OpenAI launches \"ChatGPT for Academic Researchers,\" giving up to 100,000 verified academic researchers free access to its full GPT-5.6 model suite (Sol, Terra, Luna) plus specialised life-science skills and Codex-based coding support, as part of a $250 million commitment to accelerate scientific discovery through 2027; the first cohort of 10,000 researchers, including the Institute for Advanced Study, onboards this summer.",
+      "source": "OpenAI / Axios / TechTimes",
+      "sourceUrl": "https://openai.com/index/chatgpt-for-academic-researchers/",
+      "type": "Hype Cycle",
+      "sentiment": "extreme_bullish"
+    },
+    {
+      "date": "2026-07-30",
+      "headline": "A Seoul Economic Daily analysis of 27 U.S.-listed companies that added \"AI\" to their name or core branding since 2023 finds their combined market-cap gains — once as high as +106% — have more than halved by mid-2026, with seven firms (e.g., Hoth Therapeutics/Rocket One, Myzeum.AI) now trading below their pre-rebrand levels; the pattern echoes the dot-com-era \".com\" naming bubble and reinforces that NewBird AI's record 876% intraday surge remains an outlier rather than a sustainable template.",
+      "source": "Seoul Economic Daily",
+      "sourceUrl": "https://en.sedaily.com/international/2026/07/14/add-ai-and-stocks-soar-half-of-rebranding-gains-vanish",
+      "type": "AI-Washing",
+      "sentiment": "bearish_signal"
+    },
     {
       "date": "2026-07-22",
       "headline": "AMD and Anthropic announce a landmark strategic partnership: Anthropic will deploy up to 2 gigawatts of AMD Instinct MI450-series GPUs (Helios rack-scale systems, MI455X + EPYC “Venice” CPUs) starting H1 2027, backed by up to $5 billion in AMD equity investment into Anthropic; Anthropic's hardware purchases under the deal are expected to total “tens of billions of dollars,” marking one of the largest AI infrastructure deals to date and intensifying chip-supplier competition with NVIDIA.",
@@ -1014,49 +1038,25 @@ const FALLBACK_DATA = {
       "sourceUrl": "https://www.techtimes.com/articles/317631/20260602/microsoft-build-2026-mai-thinking-1-first-house-reasoning-model-trained-without-openai-data.htm",
       "type": "Hype Cycle",
       "sentiment": "extreme_bullish"
-    },
-    {
-      "date": "2026-06-01",
-      "headline": "GitHub Copilot shifts to usage-based billing on 1 June 2026, replacing premium-request quotas with token-based GitHub AI Credits across plans — a direct signal that AI coding demand is now being monetized with explicit compute economics.",
-      "source": "GitHub Blog",
-      "sourceUrl": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
-      "type": "Circular Financing",
-      "sentiment": "bearish_signal"
-    },
-    {
-      "date": "2026-06-01",
-      "headline": "Stanford HAI's 2026 AI Index reports frontier-model performance on SWE-bench Verified rising from 60% to near 100% in a year, organizational AI adoption reaching 88%, and 4 in 5 university students using generative AI — reinforcing how fast capability and adoption expectations are compounding.",
-      "source": "Stanford HAI AI Index",
-      "sourceUrl": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
-      "type": "Hype Cycle",
-      "sentiment": "extreme_bullish"
-    },
-    {
-      "date": "2026-06-01",
-      "headline": "Illinois lawmakers advanced the first U.S. bill requiring annual third-party safety audits for frontier AI labs, pre-release risk reporting, and 72-hour incident disclosure — a sign that AI governance is hardening as capability claims keep escalating.",
-      "source": "NBC News / Illinois Legislature",
-      "sourceUrl": "https://www.nbcnews.com/tech/tech-news/illinois-legislature-passes-historic-ai-bill-rcna347191",
-      "type": "Regulatory",
-      "sentiment": "bearish_signal"
     }
   ],
   "valuationTable": [
     {
       "metric": "CAPE Ratio",
       "value1999Peak": 43.5,
-      "value2026": 41.37,
+      "value2026": 41.0,
       "historicalAvg": 17.6
     },
     {
       "metric": "S&P 500 Forward P/E",
       "value1999Peak": 25,
-      "value2026": 19.9,
+      "value2026": 19.6,
       "historicalAvg": 16
     },
     {
       "metric": "Top 7 Stocks P/E",
       "value1999Peak": 66,
-      "value2026": 28.5,
+      "value2026": 63.3,
       "historicalAvg": 20
     }
   ],
@@ -1091,13 +1091,13 @@ const FALLBACK_DATA = {
 // ─── Bubble insights ──────────────────────────────────────────────────
 const INSIGHTS = [
   { title: '🫧 Recursive Financing Loop',
-    body: 'NVIDIA invests in OpenAI → OpenAI buys NVIDIA GPUs → NVIDIA records revenue. This closed loop means roughly $600B in committed infrastructure spend through 2030 may still reflect recycled capital dynamics, not purely end-demand. Meanwhile Big-4 hyperscaler 2026 capex is now tracking toward ~$715B (+62% YoY).' },
+    body: 'NVIDIA invests in OpenAI → OpenAI buys NVIDIA GPUs → NVIDIA records revenue. This closed loop means roughly $600B in committed infrastructure spend through 2030 may still reflect recycled capital dynamics, not purely end-demand. Meanwhile top-5 hyperscaler 2026 capex is now tracking toward ~$725B (+77% YoY).' },
   { title: '🐦 NewBird AI: Narrative > Reality',
     body: 'Allbirds (a wool-shoe company) rebranded as "NewBird AI" on April 15 2026 and surged ~876% intraday. No AI product, no AI revenue — just two letters: A and I.' },
   { title: '⚡ The Hard Stop: Power Grid',
     body: 'A single large-scale AI data center can require 300 MW+. Grid connection now averages about 4 years in major U.S. markets, while bottlenecked regions can still stretch to 7–12 years. Billions in GPUs are sitting idle waiting for power they may never get.' },
-  { title: '📉 CAPE at 41.37 — 95.1% of Dot-Com All-Time Peak',
-    body: 'The CAPE ratio eases to ~41.37× as of July 22, 2026 — still 95.1% of the all-time dot-com peak of 43.5×, keeping U.S. equity valuations at near-extreme historical levels. The forward P/E softens to ~19.9× but remains above the 16× long-run average.' },
+  { title: '📉 CAPE at 41.0 — 94.3% of Dot-Com All-Time Peak',
+    body: 'The CAPE ratio eases to ~41.0× as of July 30, 2026 — still 94.3% of the all-time dot-com peak of 43.5×, keeping U.S. equity valuations at near-extreme historical levels. The forward P/E softens to ~19.6× but remains above the 16× long-run average.' },
   { title: '🤖 AI Slop & Productivity Paradox',
     body: 'Studies show AI coding assistants made programming 19% slower due to time spent fixing AI-generated bugs. Up to 95% of enterprise Gen AI implementations have reportedly failed.' },
   { title: '💰 "Chief AI Officer" is Already Dead',
